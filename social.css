@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden ;
+}
+/*-------- Background Image ---------*/
+.background-image{
+    position: relative;
+    z-index: -1;
+}
+.top{
+    position: absolute;
+    top: -3rem;
+    left: -3rem;
+}
+.bottom{
+    position: absolute;
+    top: 7rem;
+    left: 25rem;
+}
+/*--------Container ---------*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10%;
+}
+/*------- Header ---------*/
+.head{
+    width: 40%;
+}
+/*--------Head Text---------*/
+.head h1{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    font-size: 50px;
+    padding-bottom: 3%;
+    
+}
+/*-------- head paragraph ---------*/
+.head p{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+    color: hsl(303, 10%, 53%);
+}
+/*-------- Ratings ---------*/
+.review, .report,.best{
+    width: 400px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 500;
+    color: hsl(300, 43%, 22%) ;
+}
+.reviews , .guru, .tech{
+    padding: 5% 2%;
+}
+.review{
+    margin-left: 5rem ;
+}
+.report{
+    margin-left: 10rem;
+}
+.best{
+    margin-left:15rem ;
+}
+/*-------- Testimonials ---------*/
+.testimonials{
+    display: flex;
+    margin-top: 50px;
+}
+.testimonials img{
+    border-radius: 50%;
+    width: 40px;
+    float: left;
+}
+.first, .second, .third{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    font-family: 'Spartan', sans-serif;
+    padding: 3%;
+    flex: 1;
+}
+.first{
+    align-self: start;
+}
+.second{
+    margin-top: 2%;
+    margin-left: 30px;
+    align-self: start;
+}
+.third{
+    margin-top: 5%;
+    margin-left: 30px;
+    align-self: start;
+}
+h3{
+    padding: 2%;
+    margin-left: 50px;
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+}
+h4{
+    margin-left: 57px;
+    color: hsl(333, 80%, 67%);
+    font-weight: normal;
+}
+.testimonials p{
+    margin-top: 30px;
+    color: white;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 12px;
+}
